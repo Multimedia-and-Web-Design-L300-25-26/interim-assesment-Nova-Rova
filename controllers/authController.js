@@ -36,6 +36,7 @@ const register = async (req, res) => {
       user: { id: user._id, name: user.name, email: user.email },
     });
   } catch (err) {
+    console.log(err)
     if (err.name === "ValidationError") {
       const messages = Object.values(err.errors).map((e) => e.message);
       return res.status(400).json({ message: messages.join(". ") });
