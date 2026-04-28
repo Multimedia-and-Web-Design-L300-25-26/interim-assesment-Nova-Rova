@@ -1,4 +1,0 @@
-PORT=5000
-MONGO_URI=mongodb+srv://amarteynlfelix_db_user:1234@cluster0.mrrcrpo.mongodb.net/?appName=Cluster0
-JWT_SECRET=FYGC2nNdM6Cgd1oh;kep3m[qw'fpgbn[30eipbojlsg;l'mbfp d]vkmwfeg dbfkofg'kqr w;f,savd[\sf-rgeqo2pi3rljt4grbtg dmp[fkerw43p[0oiprqfjelvmsfdg.,m'terpkw4[32opirwfjekrfng]]]]]
-CLIENT_URL=http://localhost:5173
