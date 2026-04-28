@@ -18,10 +18,10 @@ app.use(
 app.use(express.json());
 app.use(cookieParser());
 
-app.use("/api/auth", authRoutes);
-app.use("/api/crypto", cryptoRoutes);
+app.use("/auth", authRoutes);
+app.use("crypto", cryptoRoutes);
 
-app.get("/api/health", (req, res) => res.json({ status: "ok" }));
+app.get("health", (req, res) => res.json({ status: "ok" }));
 
 mongoose
   .connect(process.env.MONGO_URI)
